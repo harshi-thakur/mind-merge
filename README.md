@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# MIND MERGE
+
+**MIND MERGE** is a cutting-edge web application designed to facilitate seamless and instant collaboration on ideas. It offers a custom rich text editor with a variety of powerful features to enhance your collaborative experience.
+
+## Features
+
+- 📝 Custom Rich Text Editor based on Quill: Enjoy a highly customizable and feature-rich text editor built on Quill, providing a smooth editing experience with extensive formatting options.
+- ⏱️ **Real-time database and collaboration**: Work together with others in real-time, with every change being saved instantly to ensure nothing is lost.
+- 🟢 **Real-time presence**: See who is online and actively collaborating in the document.
+- 🗑️ **Move to trash functionality**: Easily delete unwanted documents and recover them later if needed.
+- 😜 **Custom emoji picker**: Add a personal touch to your documents with a wide range of custom emojis.
+- 🌙 **Light mode and dark mode**: Choose the theme that best suits your environment or preference.
+- 🚨 **Next.js 13 app router**: Built on the latest Next.js framework for efficient routing and performance.
+- 👨‍👨‍👧‍👦 **Real-time Collaboration**: Edit documents simultaneously with others and see changes as they happen.
+- 📚 **Update profile settings**: Manage and update your profile to personalize your experience.
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these simple steps.
 
-```bashm
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/harshi-thakur/mind-merge.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd mind-merge
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+
+### Running the Application
+
+To start the development server, run:
+
+```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+``
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## License
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Distributed under the MIT License. See `LICENSE` for more information.
